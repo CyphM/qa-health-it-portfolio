@@ -11,16 +11,7 @@ Las columnas *Resultado obtenido*, *Estado* y *Evidencia* se completan al ejecut
 - **Excepción:** el usuario o el dato se salen de lo esperado (campo vacío, valor inválido, límite).
 
 ## Matriz de trazabilidad
-| Requisito | Casos |
-|---|---|
-| RF-01 | CP-001 |
-| RF-02 | CP-003, CP-004, CP-005 |
-| RF-03 | CP-001 |
-| RF-04 | CP-006, CP-007 |
-| RF-05 | CP-008 |
-| RF-06 | CP-010 |
-| RF-07 | CP-009 |
-| RF-08 | CP-002 |
+Ver [`matriz_trazabilidad.md`](matriz_trazabilidad.md) (se valida automáticamente contra este archivo).
 
 ---
 
