@@ -33,7 +33,7 @@ Verificar que el flujo de prescripción de medicamentos funciona según los requ
 | RF-08 | El medicamento se puede buscar por nombre. |
 
 ## 5. Estrategia
-Casos manuales diseñados con técnicas de **partición de equivalencia**, **valores límite** y casos **negativos**. Prioridad Alta para el camino feliz y la seguridad del paciente (alergias, permisos); Media para el resto.
+Casos manuales diseñados con técnicas de **partición de equivalencia**, **valores límite** y casos **negativos**. Prioridad Alta para el camino feliz, la seguridad del paciente (alergias, permisos), los campos obligatorios y la discontinuación de prescripciones; Media para el resto.
 
 ## 6. Criterios
 - **Entrada:** demo disponible, credenciales funcionando, casos revisados.
@@ -47,4 +47,4 @@ Casos manuales diseñados con técnicas de **partición de equivalencia**, **val
 | Los requisitos son supuestos propios | Indicarlo en el README y en cada reporte |
 
 ## 8. Entregables
-Casos de prueba, matriz de trazabilidad, reportes de hallazgos y un resumen de ejecución.
+Casos de prueba, [matriz de trazabilidad](../02-casos-de-prueba/matriz_trazabilidad.md), reportes de hallazgos y un [resumen de ejecución](../04-ejecucion/plantilla_resumen_ejecucion.md).

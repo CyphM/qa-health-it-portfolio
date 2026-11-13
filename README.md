@@ -1,5 +1,7 @@
 # Portafolio QA — Sistemas de salud
 
+[![Trazabilidad](https://github.com/CyphM/qa-health-it-portfolio/actions/workflows/trazabilidad.yml/badge.svg)](https://github.com/CyphM/qa-health-it-portfolio/actions/workflows/trazabilidad.yml)
+
 Portafolio de QA con plan de pruebas, casos de prueba y reportes de hallazgos sobre **OpenEMR**, un sistema de salud de código abierto. Todo el trabajo usa la demo pública de OpenEMR y **datos 100 % ficticios**: no hay información de pacientes, hospitales ni empresas reales.
 
 **Autor:** Rodrigo Vargas León · Ingeniero en Informática, especialización en Calidad de Software
@@ -10,8 +12,10 @@ Portafolio de QA con plan de pruebas, casos de prueba y reportes de hallazgos so
 | Carpeta | Contenido | Estado |
 |---|---|---|
 | [`01-plan-de-pruebas`](01-plan-de-pruebas/plan_de_pruebas.md) | Alcance, estrategia, ambiente, criterios de entrada y salida, riesgos | Borrador |
-| [`02-casos-de-prueba`](02-casos-de-prueba/casos_prescripcion.md) | 10 casos de prueba del flujo de prescripción, con matriz de trazabilidad | Diseñados, pendientes de ejecutar |
+| [`02-casos-de-prueba`](02-casos-de-prueba/casos_prescripcion.md) | 10 casos de prueba del flujo de prescripción y su [matriz de trazabilidad](02-casos-de-prueba/matriz_trazabilidad.md), validada automáticamente | Diseñados, pendientes de ejecutar |
 | [`03-reporte-de-hallazgos`](03-reporte-de-hallazgos/plantilla_reporte_hallazgo.md) | Plantilla para reportar defectos | Lista |
+| [`04-ejecucion`](04-ejecucion/guia_de_ejecucion.md) | Guía para ejecutar los casos y plantilla de resumen de ejecución | Lista |
+| [`tools`](tools/validar_trazabilidad.py) | Script que verifica que requisitos, casos y matriz sean consistentes | Lista |
 
 ## Cómo trabajo
 
